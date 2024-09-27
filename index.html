@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/nogyoLogo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Nogyo - Home</title>
+  </head>
+  <body>
+    <!--buat navbar-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/nogyoLogo.png" alt="logo" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sector</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Technology</a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">Case</a>
+            </li>
+          </ul>
+
+          <div class="nav__buttons">
+            <a href="#" class="nav__button-link">Case</a>
+            <a href="#" class="nav__button-ghost">About Us</a>
+          </div>
+
+          <!-- buat burger -->
+
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"> </i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"> </i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home">
+        <div class="home__container container">
+          <div class="home__content">
+            <div class="home__data">
+              <h1 class="home__title">
+                REVOLUTION <span class="green">AGRICULTURE</span> MACHINERY
+              </h1>
+              <p class="home__description">
+                Teknologi pertanian adalah inovasi penting yang membantu
+                meningkatkan hasil panen dan menjaga keberlanjutan lingkungan.
+                Penasaran bagaimana teknologi ini dapat memengaruhi masa depan?
+                Jelajahi lebih lanjut di website ini!
+              </p>
+              <a href="#about" class="home__button">Get Started</a>
+            </div>
+            <img src="assets/img/drone.png" alt="image" class="home__drone-2" />
+            <img src="assets/img/drone.png" alt="image" class="home__drone-1" />
+          </div>
+        </div>
+        <div class="home__images">
+          <img src="assets/img/layer3.png" alt="layer" class="layer__img-3" />
+          <img src="assets/img/layer2.png" alt="layer" class="layer__img-2" />
+          <img src="assets/img/layer1.png" alt="layer" class="layer__img-1" />
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about__container container">
+          <div class="about__content">
+            <h1 class="about__title">
+              About <br />
+              <span class="green">AGRICULTURE</span> TECHNOLOGY
+            </h1>
+            <div class="about__data">
+              <div class="about__image">
+                <img src="assets/img/sawah1.png" alt="Agriculture Technology" />
+              </div>
+
+              <div class="divider"></div>
+
+              <div class="about__text">
+                <h2>TENTANG <br />TEKNOLOGI PERTANIAN</h2>
+                <p>
+                  Teknologi pertanian adalah penerapan inovasi modern untuk
+                  meningkatkan efisiensi dalam sektor pertanian. Teknologi ini
+                  membantu petani mengoptimalkan hasil panen, menghemat tenaga,
+                  dan memanfaatkan sumber daya secara lebih efisien.
+                  <br /><br />
+                  Teknologi Pertanian ditujukan untuk membantu manusia dalam
+                  meningkatkan produktivitas tenaga kerja, meningkatkan
+                  produktivitas lahan, menurunkan ongkos produksi, dan menjaga
+                  kelestarian lingkungan serta keberlanjutan sumber daya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="assets/img/rumput.png"
+        alt="rumput"
+        class="breakpoint1"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      />
+
+      <section class="tiga">
+        <div class="tiga__container container">
+          <div class="tiga__content">
+            <div class="tiga__data">
+              <div class="tiga__text">
+                <h2>
+                  Sektor <br />
+                  teknologi Pertanian
+                </h2>
+                <p>
+                  Sektor Dalam Teknologi pertanian mencakup berbagai perangkat
+                  dan disiplin ilmu yang berfokus pada penerapan teknologi
+                  modern untuk meningkatkan efisiensi, produktivitas, dan
+                  keberlanjutan di bidang pertanian.
+                </p>
+                <a href="" class="tiga__button">Jelajahi</a>
+              </div>
+              <div class="tiga__card">
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide bgkrem"
+                      style="background-color: #efffe8; display: flex"
+                    >
+                      <img src="assets/img/card1.png" alt="card1" />
+                      <div class="card__content">
+                        <p class="card__headline">IoT</p>
+                        <p class="card__title">
+                          Sensor Dan <br />
+                          Internet Of Things
+                        </p>
+                        <a href="" class="card__button">Learn more</a>
+                      </div>
+                    </div>
+                    <div
+                      class="swiper-slide bgkrem"
+                      style="background-color: #efffe8; display: flex"
+                    >
+                      <img src="assets/img/card1.png" alt="card2" />
+                      <div class="card__content">
+                        <p class="card__headline">Tech</p>
+                        <p class="card__title">
+                          Drone <br />
+                          Dan Satelit
+                        </p>
+                        <a href="" class="card__button">Learn more</a>
+                      </div>
+                    </div>
+                    <div
+                      class="swiper-slide bgkrem"
+                      style="background-color: #efffe8; display: flex"
+                    >
+                      <img src="assets/img/card1.png" alt="card3" />
+                      <div class="card__content">
+                        <p class="card__headline">GIS - GPS</p>
+                        <p class="card__title">
+                          Pertanian Presisi <br />
+                          Dan GIS - GPS
+                        </p>
+                        <a href="" class="card__button">Learn more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== GSAP ===============-->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        direction: "vertical",
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
