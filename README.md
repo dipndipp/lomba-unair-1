@@ -1,5 +1,8 @@
 # semua assets yang ada di website ini sudah dicantumkan sumbernya pada source code (untuk assets yang mengambil dari google)
 
+# Link hostingan website
+https://nogyo.netlify.app/
+
 # Skor pada google LightHouse
 ![image](https://github.com/user-attachments/assets/3ae3524d-83f1-4b0d-b520-b3d3d419d94b)
 
