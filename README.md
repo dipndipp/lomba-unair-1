@@ -1,5 +1,10 @@
 # semua assets yang ada di website ini sudah dicantumkan sumbernya pada source code (untuk assets yang mengambil dari google)
 
+# Skor pada google LightHouse
+![image](https://github.com/user-attachments/assets/3ae3524d-83f1-4b0d-b520-b3d3d419d94b)
+
+
+
 # tentang nogyo
 Nogyo hadir untuk memberikan edukasi mengenai perkembangan bidang agrikultur dengan penggunaan teknologi modern. dengan cara membuat website yang berisi manfaat dari teknologi agrikultur yang sudah diterapkan untuk memberikan keuntungan dalam berbagai aspek.
 
